@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">EvoWorld social share card</title>
+  <desc id="desc">A launch-ready social card for EvoWorld with Chinese headline and game-like fantasy interface styling.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#122b4e"/><stop offset=".48" stop-color="#071421"/><stop offset="1" stop-color="#050b13"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#7fffe3"/><stop offset=".5" stop-color="#3ca2ff"/><stop offset="1" stop-color="#f9c74f"/></linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="16" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <path d="M0 430c154-83 279-70 375-18 164 88 293 90 432 12 134-75 274-94 393-12v218H0Z" fill="#0d2b36" opacity=".72"/>
+  <circle cx="936" cy="158" r="182" fill="#2d8cff" opacity=".16" filter="url(#glow)"/>
+  <g transform="translate(792 102) scale(.56)"><rect width="512" height="512" rx="112" fill="#07111f"/><circle cx="256" cy="256" r="164" fill="#56f5d2" opacity=".78"/><path d="M138 278c72-132 164-132 236 0" fill="none" stroke="#f9c74f" stroke-width="28" stroke-linecap="round"/><path d="M178 314c54-42 102-42 156 0" fill="none" stroke="#ffffff" stroke-width="20" stroke-linecap="round"/><circle cx="188" cy="230" r="16" fill="#eaffff"/><circle cx="256" cy="202" r="16" fill="#eaffff"/><circle cx="324" cy="230" r="16" fill="#eaffff"/></g>
+  <text x="80" y="136" fill="#9df8e8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="5">EVOWORLD</text>
+  <text x="80" y="228" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">让注意力进化成资产</text>
+  <text x="80" y="304" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">让 NFT 拥有生命</text>
+  <rect x="82" y="350" width="520" height="12" rx="6" fill="url(#accent)"/>
+  <text x="80" y="426" fill="#b8d8e8" font-family="Inter, Arial, sans-serif" font-size="30">代谢 · 进化 · 遗产 · 部落 DAO</text>
+  <rect x="80" y="476" width="242" height="64" rx="32" fill="url(#accent)"/>
+  <text x="122" y="518" fill="#06111d" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">探索白皮书</text>
+</svg>

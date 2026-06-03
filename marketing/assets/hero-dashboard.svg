@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860" role="img" aria-labelledby="title desc">
+  <title id="title">EvoWorld hero dashboard mockup</title>
+  <desc id="desc">A fantasy game dashboard showing evolutionary creatures, resource bars, genes, and lifecycle cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#12294a"/><stop offset=".52" stop-color="#071627"/><stop offset="1" stop-color="#06101c"/></linearGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#fff0a5"/><stop offset=".45" stop-color="#f7aa2e"/><stop offset="1" stop-color="#8e4f16"/></linearGradient>
+    <linearGradient id="aqua" x1="0" x2="1"><stop stop-color="#78ffe4"/><stop offset="1" stop-color="#3b9bff"/></linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="18"/></filter><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#b8efff"/></marker>
+  </defs>
+  <rect width="1280" height="860" rx="52" fill="url(#bg)"/>
+  <circle cx="980" cy="160" r="210" fill="#2c88ff" opacity=".18" filter="url(#soft)"/>
+  <circle cx="292" cy="690" r="250" fill="#52ffd3" opacity=".10" filter="url(#soft)"/>
+  <g opacity=".42" fill="none" stroke="#9fdfff" stroke-width="2">
+    <path d="M0 660c230-130 430-126 660 0s404 119 620-24"/><path d="M0 704c242-118 433-106 654 16s420 95 626-31"/>
+  </g>
+  <rect x="54" y="54" width="1172" height="752" rx="40" fill="#071420" stroke="#2a6686" stroke-width="3"/>
+  <rect x="82" y="82" width="360" height="696" rx="32" fill="#0d2034" stroke="#477a92"/>
+  <rect x="112" y="116" width="300" height="520" rx="26" fill="#162d45"/>
+  <path d="M112 410c70-100 138-110 207-28 38-58 67-70 93-42v296H112Z" fill="#204c45"/>
+  <circle cx="258" cy="274" r="84" fill="#4b7f60"/>
+  <path d="M211 297c18-93 80-114 114-22 12 33-6 81-55 92-38-9-65-33-59-70Z" fill="#86dd84"/>
+  <circle cx="232" cy="268" r="10" fill="#071420"/><circle cx="292" cy="268" r="10" fill="#071420"/>
+  <path d="M233 322c24 20 52 20 77 0" fill="none" stroke="#0b1a20" stroke-width="8" stroke-linecap="round"/>
+  <rect x="136" y="662" width="82" height="82" rx="18" fill="#12243a" stroke="#6f8ba1"/><rect x="236" y="662" width="82" height="82" rx="18" fill="#12243a" stroke="#6f8ba1"/><rect x="336" y="662" width="52" height="82" rx="18" fill="#12243a" stroke="#6f8ba1"/>
+  <rect x="482" y="100" width="686" height="112" rx="28" fill="#102238" stroke="#34698b"/>
+  <text x="520" y="149" fill="#eaffff" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800">EvoSpecies #0422</text>
+  <text x="520" y="186" fill="#8cc5d8" font-family="Inter, Arial, sans-serif" font-size="22">Vitality 86 · Lineage Alpha · AQS Boost +12%</text>
+  <rect x="876" y="127" width="244" height="54" rx="27" fill="url(#gold)"/><text x="922" y="164" fill="#321b08" font-family="Arial, sans-serif" font-size="24" font-weight="800">开始进化</text>
+  <g transform="translate(482 252)">
+    <rect width="316" height="210" rx="28" fill="#0f2237" stroke="#34698b"/>
+    <text x="28" y="54" fill="#eaffff" font-family="Arial" font-size="26" font-weight="800">代谢协议</text>
+    <rect x="28" y="86" width="260" height="22" rx="11" fill="#071420"/><rect x="28" y="86" width="206" height="22" rx="11" fill="url(#aqua)"/>
+    <text x="28" y="148" fill="#9ccddd" font-family="Arial" font-size="22">喂养、休眠、老化与标本</text>
+  </g>
+  <g transform="translate(838 252)">
+    <rect width="316" height="210" rx="28" fill="#0f2237" stroke="#34698b"/>
+    <text x="28" y="54" fill="#eaffff" font-family="Arial" font-size="26" font-weight="800">基因重组</text>
+    <path d="M72 87c96 42 96 78 0 120M244 87c-96 42-96 78 0 120" fill="none" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M100 116h116M91 148h134M100 180h116" stroke="#70ffe2" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(482 504)">
+    <rect width="672" height="224" rx="28" fill="#0f2237" stroke="#34698b"/>
+    <text x="32" y="56" fill="#eaffff" font-family="Arial" font-size="28" font-weight="800">资产生命周期</text>
+    <g font-family="Arial" font-size="20" font-weight="700" text-anchor="middle">
+      <circle cx="94" cy="136" r="42" fill="#2b8cff"/><text x="94" y="143" fill="#fff">出生</text>
+      <circle cx="224" cy="136" r="42" fill="#29d6a8"/><text x="224" y="143" fill="#05251d">成长</text>
+      <circle cx="354" cy="136" r="42" fill="#f9c74f"/><text x="354" y="143" fill="#321b08">战斗</text>
+      <circle cx="484" cy="136" r="42" fill="#ff8a3d"/><text x="484" y="143" fill="#321b08">老化</text>
+      <circle cx="614" cy="136" r="42" fill="#9cffcb"/><text x="614" y="143" fill="#05251d">遗产</text>
+    </g>
+    <path d="M136 136h46M266 136h46M396 136h46M526 136h46" stroke="#b8efff" stroke-width="7" stroke-linecap="round" marker-end="url(#arrow)"/>
+  </g>
+</svg>
